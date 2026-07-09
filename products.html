@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products — Mutual Tech Global</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+<header>
+  <nav>
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 100 100" fill="none">
+        <circle cx="38" cy="50" r="30" stroke="#3d7bff" stroke-width="4"/>
+        <circle cx="62" cy="50" r="30" stroke="#22d3b8" stroke-width="4"/>
+        <path d="M32 38 L32 62 L48 50 Z" fill="#3d7bff"/>
+        <path d="M62 36 L74 58 L50 58 Z" fill="none" stroke="#22d3b8" stroke-width="3.5"/>
+      </svg>
+      <span>Mutual Tech<small>GLOBAL</small></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="nav-cta">Get in touch</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="tag">Our own products</span>
+      <h1>We don't just build for clients — we ship our own.</h1>
+      <p class="lead">Every product here is live, in front of real users, on infrastructure we run ourselves. It's the proof behind everything we offer as a service.</p>
+    </div>
+  </section>
+
+  <section class="panel-tight">
+    <div class="wrap">
+
+      <div class="product-detail">
+        <div>
+          <span class="product-tag tag-live">LIVE</span>
+          <h3>JobApp AI</h3>
+          <p>AI-powered job applications — tailored CVs, cover letters, and interview prep for job seekers worldwide. Built with pricing for both global and African markets, so cost was never the barrier to a better application.</p>
+          <div class="pills"><span>Next.js</span><span>Supabase</span><span>Stripe</span><span>Claude API</span></div>
+          <a class="product-link" href="https://jobapp.best" target="_blank" rel="noopener">Visit jobapp.best →</a>
+        </div>
+        <div class="visual" style="color:var(--blue-400);">JobApp AI</div>
+      </div>
+
+      <div class="product-detail reverse">
+        <div>
+          <span class="product-tag tag-live">LIVE</span>
+          <h3>AgriAI-Insight</h3>
+          <p>Crop yield prediction for Nigerian farmers, pairing a machine learning model with a mobile-first app that works for the people actually using it in the field.</p>
+          <div class="pills"><span>FastAPI</span><span>React Native</span><span>AWS Lambda</span></div>
+          <a class="product-link" href="https://agriai-insight.netlify.app" target="_blank" rel="noopener">Visit AgriAI-Insight →</a>
+        </div>
+        <div class="visual" style="color:var(--teal-400);">AgriAI-Insight</div>
+      </div>
+
+      <div class="product-detail">
+        <div>
+          <span class="product-tag tag-live">LIVE</span>
+          <h3>NaijaLearn AI</h3>
+          <p>A multilingual AI tutor for Nigerian university students — because learning works best in the language you actually think in.</p>
+          <div class="pills"><span>Netlify</span><span>Claude Haiku</span></div>
+          <a class="product-link" href="https://naijalearn-ai.netlify.app" target="_blank" rel="noopener">Visit NaijaLearn AI →</a>
+        </div>
+        <div class="visual" style="color:var(--blue-400);">NaijaLearn AI</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="panel panel-alt">
+    <div class="wrap" style="text-align:center; max-width:640px;">
+      <h2 style="font-size:clamp(1.7rem,3.4vw,2.3rem); font-weight:700; margin-bottom:16px;">Want something built for your business?</h2>
+      <p style="color:var(--slate-400); margin-bottom:30px;">This is the same team, the same standards — just pointed at your problem instead.</p>
+      <a href="contact.html" class="btn btn-primary">Start a project →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <a href="index.html" class="brand">
+          <svg class="brand-mark" viewBox="0 0 100 100" fill="none">
+            <circle cx="38" cy="50" r="30" stroke="#3d7bff" stroke-width="4"/>
+            <circle cx="62" cy="50" r="30" stroke="#22d3b8" stroke-width="4"/>
+          </svg>
+          <span>Mutual Tech<small>GLOBAL</small></span>
+        </a>
+        <p class="footer-tagline">Building the future, together.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Services</h5>
+          <a href="services.html">Cloud &amp; DevOps</a>
+          <a href="services.html">AI &amp; Automation</a>
+          <a href="services.html">Web &amp; App Dev</a>
+          <a href="services.html">IT Consulting</a>
+        </div>
+        <div class="footer-col">
+          <h5>Products</h5>
+          <a href="https://jobapp.best" target="_blank" rel="noopener">JobApp AI</a>
+          <a href="https://agriai-insight.netlify.app" target="_blank" rel="noopener">AgriAI-Insight</a>
+          <a href="https://naijalearn-ai.netlify.app" target="_blank" rel="noopener">NaijaLearn AI</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Mutual Tech Global. All rights reserved.</span>
+      <span>Paisley, Scotland</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+
+</body>
+</html>

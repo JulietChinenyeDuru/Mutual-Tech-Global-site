@@ -18,7 +18,7 @@ We also build and run our own products, including:
 
 - Cloud & DevOps (AWS, Azure, CI/CD, Kubernetes, Terraform)
 - AI & Automation (NLP, chatbots, workflow automation)
-- Web & App Development (Next.js, React, React Native — including real estate, ecommerce, food delivery, healthcare, education, fitness, and social media apps)
+- Web & App Development (Next.js, React, React Native including real estate, ecommerce, food delivery, healthcare, education, fitness, and social media apps)
 - IT Consulting (strategy, security audits, fractional CTO support)
 
 ## Tech stack
